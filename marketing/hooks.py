@@ -145,6 +145,15 @@ app_license = "mit"
 # 	}
 # }
 
+fixtures = [
+{ 
+  "dt":"DocType",
+"filters":{
+      "module":["in",["Marketing"]]
+}
+}]
+
+
 # Scheduled Tasks
 # ---------------
 
